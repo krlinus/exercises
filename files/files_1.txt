@@ -1,0 +1,12 @@
+1. Declare a file type.
+
+2. Open a file using the various modes using high-level call
+
+3. Open a file in the various modes using low-level call
+
+4. Read files in the various ways possible
+
+5. Write to a file using low level call
+
+6. write file using high-level call
+

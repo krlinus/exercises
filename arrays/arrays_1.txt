@@ -1,0 +1,10 @@
+1. Create a simple array for each form of declaration
+
+2. Create a dynamically allocated array
+
+3. For each functionality of an array, write a program to exercise it
+
+4. Create a double dimension array
+
+5. Create a double dimension array that is dynamically allocated
+

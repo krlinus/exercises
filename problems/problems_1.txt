@@ -1,0 +1,7 @@
+1. print a grid from the outside to in
+
+2. print a grid from the inside to out
+
+3. Make a tree
+
+4. traverse a tree in in-order, pre-order/post-order

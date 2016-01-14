@@ -1,0 +1,11 @@
+1. Create a list, for the various types of lists supported
+
+2. Sort a list using any means of choice
+
+3. How to allocate, resize, clear etc? Make a sample for every significant functionality on list
+
+4. create a tree using plain language
+
+5. create a tree using language features
+
+6. create an instance of every data structure available in the std libs

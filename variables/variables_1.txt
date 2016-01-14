@@ -1,0 +1,12 @@
+1. declare local variables using the allowed syntaxes
+
+2. find of behaviour of static variables in a function, in a file, etc. 
+
+3. declaration together with initialization for native and user-defined
+
+4. pass vars to a function. Pass address of variable (try swap program)
+
+5. exercise every type of variable declaration
+
+6. make is_palindrome in different possible ways
+

@@ -1,0 +1,11 @@
+1. write a multi-threading function in each possible way
+
+2. use a mutex
+
+3. use a semaphore
+
+4. use every other facility in the language for supporting multi-threading and related concepts
+
+5. try the various os lib features
+
+6. Try to build and package a module for production use

@@ -1,0 +1,14 @@
+1. write function to print hello world (no parameters)
+
+2. write a function using native type parameters
+
+3. write function taking reference/pointer's as parameters
+
+4. write a swap function with native parameters and with class parameters
+
+5. write a function returning native and class values
+
+6. if applicable, write function returning multiple values
+
+7. is it ok for the function to return local variables? try the various types of variables (native, user defined, reference, etc) and print the return values
+

@@ -1,0 +1,16 @@
+1. How to declare a class?
+
+2. How to instantiate a class? statically? dynamically?
+
+3. Try the various features of classes in the language
+
+4. Inheritance
+
+5. member functions/variables
+
+6. subclassing, sibling classes, multiple inheritance
+
+7. polymorphism
+
+8. exercise the various ways of recovering memory
+

@@ -25,7 +25,7 @@ func main() {
   var myvar int = 10
   var myvar1 = 10
   var myvar2 int
-  var (myvar3 int = 10;)
+  var (myvar3 int = 10;) // Note: the ';' is used to break the line
   var (myvar4 = 10;)
   var (myvar5, myvar6 int = 10,20)
   var (myvar7, myvar8 = 10,20)

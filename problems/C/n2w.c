@@ -2,6 +2,9 @@
 #include <string.h>
 #include <stdio.h>
 
+/*
+ * n2w: convert a number < 1000 into words
+ */
 void n2w(int num) {
   int h = num / 100;
   int t = (num % 100);
@@ -30,11 +33,14 @@ void n2w(int num) {
   }
 }
 
+/*
+ * main: drive n2w to make numbers >=1000 into words
+ */
 int main() {
   char numbuf[15000];
   scanf("%s",numbuf);
   int l = strlen(numbuf);
-  char *lions[] = {
+  char *lions[] = { // lions, because milLION, bilLION, etc
       "","thousand","million","billion","trillion",
       "quadrillion","quintillion","sexillion","septillion",
       "octillion","nonillion","decillion","undecillion",
@@ -285,13 +291,13 @@ int main() {
       "sexoctogintanongentillion","septemoctogintanongentillion","octooctogintanongentillion","novemoctogintanongentillion",
       "nonagintanongentillion","unnonagintanongentillion","duononagintanongentillion","Trenonagintanongentillion",
       "quattuornonagintanongentillion","quinquanonagintanongentillion","Senonagintanongentillion","septenonagintanongentillion",
-      "octononagintanongentillion","nongentinonagentanonillion or undemillillion or googood or","novenonagintanongentillion","Millillion"};
+      "octononagintanongentillion","nongentinonagentanonillion (or undemillillion or googood)","novenonagintanongentillion","Millillion"};
   int s = 0;
   int i = (l % 3 == 0) ? 3:(l % 3);
   if(i > l) i = l;
   while(i <= l) {
     char cnum[4]={0};
-    strncpy(cnum, &numbuf[s], &numbuf[i] - &numbuf[s]);
+    strncpy(cnum, numbuf + s, i - s);
     int n = atoi(cnum);
     n2w(n);
     if(n > 0) printf(" %s ", lions[(l - i)/3]);

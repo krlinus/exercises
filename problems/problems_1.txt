@@ -7,3 +7,5 @@
 4. traverse a tree in in-order, pre-order/post-order
 
 5. Convert numbers to words
+
+6. using binary search find the starting of a sorted circular linked list or array: eg, 8,9,1,2,3,4,5,6,7

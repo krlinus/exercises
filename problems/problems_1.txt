@@ -14,3 +14,6 @@
 
 8. Demonstrate use of string for concatenation, split, replace, in-place editing
 
+9. Use string buffer class to do some ops, converting back to string after job is done
+
+10. Use stream classeses, file handling functions

@@ -11,6 +11,25 @@ input data:
 answer:
 8
 
+- Rounding
+Input a fractional number. If the fractional part if .5 or more round the number to next integer, else round it down to the base integer
+
+- Fahrenheit to Celsius
+You are to write program to convert degrees of Fahrenheit to Celsius.
+Input: A temperature in Fahrenheit
+Output: value, in celcius
+Note: [°C] = ([°F] − 32) × 5⁄9
+
+- vowel count
+Lines consist only of lowercase English (Latin) letters and spaces.
+Answer should contain the number of vowels in line
+
+Input
+pear tree
+
+Output
+4
+
 - Write a program that asks the user for a number n and prints the sum of the numbers 1 to n
 
 - Modify the previous program such that only multiples of three or five are considered in the sum, e.g. 3, 5, 6, 9, 10, 12, 15 for n=17
@@ -70,9 +89,6 @@ answer:
 
 - Check prime
 Input a number. If it is a prime, print YES else print NO
-
-- Rounding
-Input a fractional number. If the fractional part if .5 or more round the number to next integer, else round it down to the base integer
 
 - Write a program that prints all prime numbers. (Note: if your programming language does not support arbitrary size numbers, printing all primes up to the largest number you can easily represent is fine too.)
 

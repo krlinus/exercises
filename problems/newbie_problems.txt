@@ -1,0 +1,87 @@
+- Write a program that prints ‘Hello World’ to the screen.
+
+- Write a program that asks the user for her name and greets her with her name.
+
+- Modify the previous program such that only the users Alice and Bob are greeted with their names.
+
+- Sum "A+B"
+input data:
+3 5
+
+answer:
+8
+
+- Write a program that asks the user for a number n and prints the sum of the numbers 1 to n
+
+- Modify the previous program such that only multiples of three or five are considered in the sum, e.g. 3, 5, 6, 9, 10, 12, 15 for n=17
+
+- Sum in Loop
+input data:
+8
+10 20 30 40 5 6 7 8
+
+answer:
+126
+
+
+- Write a program that prints a multiplication table for numbers up to 12.
+
+- Minimums of Two
+Of two numbers, please, select one with minimum value. Here are several pairs of numbers for thorough testing.
+
+Input data will contain number of test-cases in the first line.
+Following lines will contain a pair of numbers to compare each.
+For Answer please enter the same amount of minimums separated by space, for example:
+
+data:
+3
+5 3
+2 8
+100 15
+
+answer:
+3 2 15
+
+- Sums in loop: Input data will contain the total count of pairs to process in the first line.
+The following lines will contain pairs themselves - one pair at each line.
+Answer should contain the results separated by spaces.
+
+data:
+3
+100 8
+15 245
+1945 54
+
+answer:
+108 260 1999
+
+- Minimum of Three
+Input data will contain in the first line the number of triplets to follow.
+Next lines will contain one triplet each.
+Answer should contain selected minimums of triplets, separated by spaces.
+data:
+3
+7 3 5
+15 20 40
+300 550 137
+
+answer:
+3 15 137
+
+- Check prime
+Input a number. If it is a prime, print YES else print NO
+
+- Rounding
+Input a fractional number. If the fractional part if .5 or more round the number to next integer, else round it down to the base integer
+
+- Write a program that prints all prime numbers. (Note: if your programming language does not support arbitrary size numbers, printing all primes up to the largest number you can easily represent is fine too.)
+
+- Write a guessing game where the user has to guess a secret number. After every guess the program tells the user whether their number was too large or too small. At the end the number of tries needed should be printed. I counts only as one try if they input the same number multiple times consecutively.
+
+- Write a program that prints the next 20 leap years.
+
+Credits where due: 
+https://adriann.github.io/programming_problems.html
+http://www.codeabbey.com
+
+

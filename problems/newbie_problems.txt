@@ -19,8 +19,14 @@ input data:
 answer:
 8
 
+===============================================
+
+
 - Rounding
 Input a fractional number. If the fractional part if .5 or more round the number to next integer, else round it down to the base integer
+
+===============================================
+
 
 - Fahrenheit to Celsius
 You are to write program to convert degrees of Fahrenheit to Celsius.
@@ -112,6 +118,9 @@ data:
 answer:
 108 260 1999
 
+===============================================
+
+
 - Minimum of Three
 Input data will contain in the first line the number of triplets to follow.
 Next lines will contain one triplet each.
@@ -124,6 +133,9 @@ data:
 
 answer:
 3 15 137
+
+===============================================
+
 
 - Median of three: print the middle number.
 Input

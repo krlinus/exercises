@@ -1,8 +1,16 @@
 - Write a program that prints ‘Hello World’ to the screen.
 
+===============================================
+
 - Write a program that asks the user for her name and greets her with her name.
 
+===============================================
+
+
 - Modify the previous program such that only the users Alice and Bob are greeted with their names.
+
+===============================================
+
 
 - Sum "A+B"
 input data:
@@ -20,6 +28,9 @@ Input: A temperature in Fahrenheit
 Output: value, in celcius
 Note: [°C] = ([°F] − 32) × 5⁄9
 
+===============================================
+
+
 - vowel count
 Lines consist only of lowercase English (Latin) letters and spaces.
 Answer should contain the number of vowels in line
@@ -30,9 +41,17 @@ pear tree
 Output
 4
 
+===============================================
+
+
 - Write a program that asks the user for a number n and prints the sum of the numbers 1 to n
 
+===============================================
+
+
 - Modify the previous program such that only multiples of three or five are considered in the sum, e.g. 3, 5, 6, 9, 10, 12, 15 for n=17
+
+===============================================
 
 - Sum in Loop
 input data:
@@ -43,7 +62,12 @@ answer:
 126
 
 
+===============================================
+
 - Write a program that prints a multiplication table for numbers up to 12.
+
+===============================================
+
 
 - Minimums of Two
 Of two numbers, please, select one with minimum value. Here are several pairs of numbers for thorough testing.
@@ -61,6 +85,9 @@ data:
 answer:
 3 2 15
 
+===============================================
+
+
 - Sum of three
  multiply A by B and add C. Then sum the digits
  Input 
@@ -68,7 +95,8 @@ answer:
  
  Output:
  8 * 3 + 2 => 26 => 2 + 8 => 10 => 1+0 => 1
- 
+
+===============================================
 
 
 - Sums in loop: Input data will contain the total count of pairs to process in the first line.
@@ -104,14 +132,27 @@ Input
 Output
 5
 
+===============================================
+
 - Check prime
 Input a number. If it is a prime, print YES else print NO
 
+===============================================
+
+
 - Write a program that prints all prime numbers. (Note: if your programming language does not support arbitrary size numbers, printing all primes up to the largest number you can easily represent is fine too.)
+
+===============================================
+
 
 - Write a guessing game where the user has to guess a secret number. After every guess the program tells the user whether their number was too large or too small. At the end the number of tries needed should be printed. I counts only as one try if they input the same number multiple times consecutively.
 
+===============================================
+
+
 - Write a program that prints the next 20 leap years.
+
+===============================================
 
 - Search 101
 For this problem, you must allow the user to enter exactly 5 numbers as initial input.
@@ -144,6 +185,9 @@ Enter the number to be searched: 60
 
 The number 60 does not appear in the first 5 numbers
 
+===============================================
+
+
 - Binary to decimal converter
 A binary number is a sequence of bits (binary digits – 0’s and 1’s) of the form
 BnBn-1……B1 B0, where each Bi is a bit.
@@ -164,6 +208,9 @@ Example 2
 Enter binary number: 11111
 In decimal: 31
 
+===============================================
+
+
 - Pushups with Blaze
 At UAB football games, Blaze does push ups after each Blazer score. After the first Blazer touchdown (and point after), Blaze does 7 push ups. After the second touchdown and point after, the score is now 14 and Blaze does 14 push ups.
 
@@ -176,6 +223,9 @@ Push ups: 42
 Example 2:
 Enter final score: 7
 Push ups: 7
+
+===============================================
+
 
 - Valid identifier checker
 An identifier in Java, C++ and most other programming languages must begin with a letter and then may be followed by any number of letters or digits.
@@ -192,6 +242,8 @@ Example 2:
 Enter id: a_b_c__2
 Answer: a_b_c__2 is not a valid identifier
 
+===============================================
+
 - password checker
 Write a program that will validate a password.
 
@@ -202,6 +254,8 @@ Password must have,
 4) must not have space or slash (/)
 5) at least one Capital letter
 6) starting character must not be a number 
+
+===============================================
 
 - Do You Have Enough Money?
 
@@ -231,6 +285,9 @@ Sample Input:
 21.00 5.25 5.75 4.76 3.98 1.50 -1
 Sample Output:
 $1.94 SHORT
+
+===============================================
+
 
 - Parallelogram Words
 
@@ -284,6 +341,35 @@ Sample output:
 ART
 RT
 T
+
+===============================================
+
+
+- Where Does It Fit?
+
+General Statement: For an input word, determine whether it is alphabetically located before the word EXERCISE, after the word MUSCLES, or between EXERCISE and MUSCLES.
+
+Input: The first line of the data set for this problem is an integer that represents the number of words in the list. Each word is on a separate line
+
+Output: The output is to be formatted exactly like that for the sample output given below.
+
+Assumptions: All letters are upper case.
+
+Sample Input:
+4
+REST
+ACHE
+STRETCH
+GYM
+
+Sample Output:
+REST IS AFTER MUSCLES
+ACHE IS BEFORE EXERCISE
+STRETCH IS AFTER MUSCLES
+GYM IS BETWEEN EXERCISE AND MUSCLES
+
+
+===============================================
 
 
 Credits where due (and carrying forward to ultimate origin): 

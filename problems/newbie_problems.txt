@@ -87,6 +87,13 @@ data:
 answer:
 3 15 137
 
+- Median of three: print the middle number.
+Input
+3 7 5
+
+Output
+5
+
 - Check prime
 Input a number. If it is a prime, print YES else print NO
 

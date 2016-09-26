@@ -1,0 +1,392 @@
+- Write a program that prints ‘Hello World’ to the screen.
+
+===============================================
+
+- Write a program that asks the user for her name and greets her with her name.
+
+===============================================
+
+
+- Modify the previous program such that only the users Alice and Bob are greeted with their names.
+
+===============================================
+
+
+- Sum "A+B"
+input data:
+3 5
+
+answer:
+8
+
+===============================================
+
+
+- Rounding
+Input a fractional number. If the fractional part if .5 or more round the number to next integer, else round it down to the base integer
+
+===============================================
+
+
+- Fahrenheit to Celsius
+You are to write program to convert degrees of Fahrenheit to Celsius.
+Input: A temperature in Fahrenheit
+Output: value, in celcius
+Note: [°C] = ([°F] − 32) × 5⁄9
+
+===============================================
+
+
+- vowel count
+Lines consist only of lowercase English (Latin) letters and spaces.
+Answer should contain the number of vowels in line
+
+Input
+pear tree
+
+Output
+4
+
+===============================================
+
+
+- Write a program that asks the user for a number n and prints the sum of the numbers 1 to n
+
+===============================================
+
+
+- Modify the previous program such that only multiples of three or five are considered in the sum, e.g. 3, 5, 6, 9, 10, 12, 15 for n=17
+
+===============================================
+
+- Sum in Loop
+input data:
+8
+10 20 30 40 5 6 7 8
+
+answer:
+126
+
+
+===============================================
+
+- Write a program that prints a multiplication table for numbers up to 12.
+
+===============================================
+
+
+- Minimums of Two
+Of two numbers, please, select one with minimum value. Here are several pairs of numbers for thorough testing.
+
+Input data will contain number of test-cases in the first line.
+Following lines will contain a pair of numbers to compare each.
+For Answer please enter the same amount of minimums separated by space, for example:
+
+data:
+3
+5 3
+2 8
+100 15
+
+answer:
+3 2 15
+
+===============================================
+
+
+- Sum of three
+ multiply A by B and add C. Then sum the digits
+ Input 
+ 8 3 2
+ 
+ Output:
+ 8 * 3 + 2 => 26 => 2 + 8 => 10 => 1+0 => 1
+
+===============================================
+
+
+- Sums in loop: Input data will contain the total count of pairs to process in the first line.
+The following lines will contain pairs themselves - one pair at each line.
+Answer should contain the results separated by spaces.
+
+data:
+3
+100 8
+15 245
+1945 54
+
+answer:
+108 260 1999
+
+===============================================
+
+
+- Minimum of Three
+Input data will contain in the first line the number of triplets to follow.
+Next lines will contain one triplet each.
+Answer should contain selected minimums of triplets, separated by spaces.
+data:
+3
+7 3 5
+15 20 40
+300 550 137
+
+answer:
+3 15 137
+
+===============================================
+
+
+- Median of three: print the middle number.
+Input
+3 7 5
+
+Output
+5
+
+===============================================
+
+- Check prime
+Input a number. If it is a prime, print YES else print NO
+
+===============================================
+
+
+- Write a program that prints all prime numbers. (Note: if your programming language does not support arbitrary size numbers, printing all primes up to the largest number you can easily represent is fine too.)
+
+===============================================
+
+
+- Write a guessing game where the user has to guess a secret number. After every guess the program tells the user whether their number was too large or too small. At the end the number of tries needed should be printed. I counts only as one try if they input the same number multiple times consecutively.
+
+===============================================
+
+
+- Write a program that prints the next 20 leap years.
+
+===============================================
+
+- Search 101
+For this problem, you must allow the user to enter exactly 5 numbers as initial input.
+The program must then ask for an additional number.
+
+The output of the program will indicate whether the last number is contained in the first 5 numbers.
+Your output should resemble that provided in the example below.
+
+All of the numbers that will be entered are integers.
+
+Example 1
+
+Enter a number: 1
+Enter a number: 2
+Enter a number: 5
+Enter a number: 10
+Enter a number: 15
+Enter the number to be searched: 10
+
+The number 10 appears in the first 5 numbers.
+
+Example 2
+
+Enter a number: 10
+Enter a number: 20
+Enter a number: 30
+Enter a number: 40
+Enter a number: 50
+Enter the number to be searched: 60
+
+The number 60 does not appear in the first 5 numbers
+
+===============================================
+
+
+- Binary to decimal converter
+A binary number is a sequence of bits (binary digits – 0’s and 1’s) of the form
+BnBn-1……B1 B0, where each Bi is a bit.
+
+The decimal equivalent is calculated by Bn * 2n+ Bn-1 * 2n-1 + … + B1 * 2 + B0.
+
+Write a program to input a binary number and output the decimal equivalent.
+
+The sample input will not have more than 8 individual bits (i.e., the largest value to be entered is 11111111).
+
+Example 1
+
+Enter binary number: 101
+In decimal: 5
+
+Example 2
+
+Enter binary number: 11111
+In decimal: 31
+
+===============================================
+
+
+- Pushups with Blaze
+At UAB football games, Blaze does push ups after each Blazer score. After the first Blazer touchdown (and point after), Blaze does 7 push ups. After the second touchdown and point after, the score is now 14 and Blaze does 14 push ups.
+
+Write a program that calculates how many total push ups Blaze does during the whole game. Assume that only 7 point touchdowns (including the point after) occur. Prompt for the final score and print out how many push ups Blaze has done.
+
+Example 1:
+Enter final score: 21
+Push ups: 42
+
+Example 2:
+Enter final score: 7
+Push ups: 7
+
+===============================================
+
+
+- Valid identifier checker
+An identifier in Java, C++ and most other programming languages must begin with a letter and then may be followed by any number of letters or digits.
+
+It is possible that underscores (_) will also appear, but only in the middle and never two consecutively.
+
+Write a program to read a string and output whether it is a valid or invalid identifier. Each string will be 10 characters or less in size.
+
+Example 1:
+Enter id: UAB_HSPC
+Answer: UAB_HSPC is a valid identifier
+
+Example 2:
+Enter id: a_b_c__2
+Answer: a_b_c__2 is not a valid identifier
+
+===============================================
+
+- password checker
+Write a program that will validate a password.
+
+Password must have,
+1) 8 to 12 characters
+2) at least one numeric digit
+3) at least one alphabet
+4) must not have space or slash (/)
+5) at least one Capital letter
+6) starting character must not be a number 
+
+===============================================
+
+- Do You Have Enough Money?
+
+General Statement:
+Read the amount of money you have and the prices of the items you intend to buy. Determine whether you have enough money to buy everything you selected or whether you are short of money. If you do not have enough money, indicate the amount of the shortfall. Be sure to include 8% tax when figuring the amount you need.
+
+Input:
+There are an unknown number of money amounts in the data set. The value –1 is used to indicate the end of the collection of prices. The first value is the money in the purse.
+
+Output:
+All letters are to be upper case. Include the amount of shortfall if you do not have enough money. This money amount is to have a dollar sign ($) in front of the amount and it is to be rounded to 2 decimal places. The output is to be formatted exactly like that for the sample output given below.
+
+Assumptions:
+The –1 used to indicate the end of a data collection is not part of the data for the problem.
+
+Sample Input:
+10.50 7.60 1.26 3.49 -1
+Sample Output:
+$2.84 SHORT
+
+Sample Input:
+15.75 6.00 3.98 -1
+Sample Output:
+ENOUGH MONEY
+
+Sample Input:
+21.00 5.25 5.75 4.76 3.98 1.50 -1
+Sample Output:
+$1.94 SHORT
+
+===============================================
+
+
+- Parallelogram Words
+
+General Statement:
+Output a given word horizontally and multiple times vertically so that each letter in the horizontal word matches the position of that letter vertically.
+
+Input:
+The first line in the data set is an integer that represents the number of words that follow. Each word is on a separate line.
+
+Output:
+The horizontal word is to be in the center of the output. Each vertical word is to read down from the top. The first vertical word uses the first letter of the horizontal word. The last vertical word uses the last letter of the horizontal word.
+
+All outputs are to have the same left edge vertically.
+
+The output is to be formatted exactly like that for the sample output given below.
+
+Assumptions:
+All letters are upper case. The maximum word length is 10.
+
+Sample Input:
+TEST
+Sample output:
+   T
+  TE
+ TES
+TEST
+EST
+ST
+T
+
+Sample Input:
+SAMPLE
+Sample output:
+     S
+    SA
+   SAM
+  SAMP
+ SAMPL
+SAMPLE
+AMPLE
+MPLE
+PLE
+LE
+E
+
+Sample Input:
+ART
+Sample output:
+  A
+ AR
+ART
+RT
+T
+
+===============================================
+
+
+- Where Does It Fit?
+
+General Statement: For an input word, determine whether it is alphabetically located before the word EXERCISE, after the word MUSCLES, or between EXERCISE and MUSCLES.
+
+Input: The first line of the data set for this problem is an integer that represents the number of words in the list. Each word is on a separate line
+
+Output: The output is to be formatted exactly like that for the sample output given below.
+
+Assumptions: All letters are upper case.
+
+Sample Input:
+4
+REST
+ACHE
+STRETCH
+GYM
+
+Sample Output:
+REST IS AFTER MUSCLES
+ACHE IS BEFORE EXERCISE
+STRETCH IS AFTER MUSCLES
+GYM IS BETWEEN EXERCISE AND MUSCLES
+
+
+===============================================
+
+
+Credits where due (and carrying forward to ultimate origin): 
+https://adriann.github.io/programming_problems.html
+http://www.codeabbey.com
+https://tausiq.wordpress.com
+
+

@@ -1,0 +1,4 @@
+$ g++ test1.cpp
+test1.cpp: In function ‘int main()’:
+test1.cpp:2:8: warning: extended initializer lists only available with -std=c++11 or -std=gnu++11
+  char c{7};

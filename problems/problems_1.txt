@@ -7,3 +7,13 @@
 4. traverse a tree in in-order, pre-order/post-order
 
 5. Convert numbers to words
+
+6. using binary search find the starting of a sorted circular linked list or array: eg, 8,9,1,2,3,4,5,6,7
+
+7. Implement a hash map
+
+8. Demonstrate use of string for concatenation, split, replace, in-place editing
+
+9. Use string buffer class to do some ops, converting back to string after job is done
+
+10. Use stream classeses, file handling functions

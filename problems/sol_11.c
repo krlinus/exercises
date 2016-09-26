@@ -30,11 +30,9 @@ int main(){
        scanf("%d",&arr[arr_i]);
        if(arr[arr_i] < min) min = arr[arr_i];
     }
-    printf("%d\n",n);
-    int leftover = 0;
-    while((leftover = cut(arr,n,&min)) > 0) {
+    int leftover = n;
+    do {
         printf("%d\n", leftover);
-    }
+    } while((leftover = cut(arr,n,&min)) > 0);
     return 0;
 }
-

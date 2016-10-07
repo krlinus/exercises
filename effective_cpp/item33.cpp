@@ -9,6 +9,7 @@ struct Base {
 };
 
 struct Derived : public Base {
+  // using Base::myfunc; // ----> This makes it "work"
   void myfunc() {}
 };
 

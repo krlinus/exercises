@@ -12,3 +12,17 @@ See list1.py
 
 Q1.5. How do you overcome the wrong result when you do 0.1 + 0.2 == 0.3 ?
 See imag1.py
+
+Q1.6. Given a list e.g.,
+ l = [34,21,56,98,63]
+print the 2nd last, 4th last, 6th last etc till the beginning
+See list2.py
+
+Q1.7. Using lists and set operations split a range of numbers into
+ - divisible by 3
+ - divisible by 5
+ - divisible by 3 & 5
+ - divisible by neither 3 nor 5
+See list3.py
+
+

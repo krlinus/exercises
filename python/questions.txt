@@ -1,4 +1,11 @@
 Q 1 How does import this work? How does it print stuff when you try to import it?
 Ans. Look in mymodule1
 
+Q1.2. Can we indent with spaces and tabs both? One line with tab and the next with spaces?
+See indentation.py
+
+Q1.3. How to define a member function? How do we control visibility - private, protected etc
+See class1.py  
+
+
 

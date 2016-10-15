@@ -1,0 +1,4 @@
+Q 1 How does import this work? How does it print stuff when you try to import it?
+Ans. Look in mymodule1
+
+

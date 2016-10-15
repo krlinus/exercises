@@ -7,5 +7,5 @@ See indentation.py
 Q1.3. How to define a member function? How do we control visibility - private, protected etc
 See class1.py  
 
-
-
+Q1.4. How do you modify a list in place without calling append() or extend()
+See list1.py

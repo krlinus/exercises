@@ -9,3 +9,6 @@ See class1.py
 
 Q1.4. How do you modify a list in place without calling append() or extend()
 See list1.py
+
+Q1.5. How do you overcome the wrong result when you do 0.1 + 0.2 == 0.3 ?
+See imag1.py

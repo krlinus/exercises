@@ -4,10 +4,11 @@ class C1:
 
     def _func_c1(self):
         print '_func_c1'
+        print type(self.__func_c1) # <type 'instancemethod'>
 
 class D1(C1):
     def func_d1(self):
-        self._func_c1()
+        print type(self._func_c1) # <type 'instancemethod'>
         #self.__func_c1()
 
 d = D1()
@@ -20,5 +21,5 @@ c = C1()
 #          c.__func_c1()
 #          AttributeError: C1 instance has no attribute '__func_c1'
 
-c.__func_c1()
+#c.__func_c1()
 

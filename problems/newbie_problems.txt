@@ -1,8 +1,35 @@
-- Write a program that prints ‘Hello World’ to the screen.
+For ABSOLUTE newbies
+Questions - make sure you understand these before starting:
+- what is a "computer language"
+- what is computer memory. What is it made of. How do bits turn off and on?
+- What is a variable. What is variable naming. What does a variable name mean to the computer/compiler
+- what is a literal
+- what is an operator
+- what is an expression
+- what is a keyword
+- what is a statement
+- statement terminator (;, end of line, etc)
+- statement demiliter (, etc)
+- what common types of statements exist
+- what are data types and why do we need to classify them
+- How do you specify the value of a variable, for each type of data
+- what is an escape character.
+- how to print the escape character (did this question occur to you? If so you have been paying attention)
+
+- You have a few devices listed below. Make tea.
+Heater, filter, container, glass
+- In the above, do you have everything you need? What is missing?
+(try tea powder/leaves/bag, water, milk, sugar)
+- In the above two what components can be thought of as data, what parts belong to the procedure? and what is the relation between the "data", "procedure" and "outcome". Think and discuss. How can you relate this with a computer program
+- what is a "function". Does this word have any relation to mathematics or have any similarity?
+- what is a library (hint: it is not the place you borrow books from)
+
+For other newbies
+- Write a program that prints ‘Hello World’ to the screen. From the above list, what concept/s was/were put into use (variables, for example)
 
 ===============================================
 
-- Write a program that asks the user for her name and greets her with her name.
+- Write a program that asks the user for her name and greets her with her name. From the above list, what concept/s was/were put into use (variables, for example)
 
 ===============================================
 

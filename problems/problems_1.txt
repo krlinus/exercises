@@ -68,3 +68,6 @@ Sample Output 1
 4
 1
 
+12. Given an array of integers possibly containing negative numbers, find the
+contiguous subarray with the maximum sum
+

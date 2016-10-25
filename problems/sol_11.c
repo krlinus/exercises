@@ -36,3 +36,30 @@ int main(){
     } while((leftover = cut(arr,n,&min)) > 0);
     return 0;
 }
+
+
+#if 0 
+/* Cleaner solution - count the number of occurances of each number
+then go over it from smallest to greatest order while subtracting the
+# of occurances from the number of numbers
+*/
+int main(){
+    int n; 
+    int h[1000] = {0};
+    scanf("%d",&n);
+    int arr[n];
+    for(int arr_i = 0; arr_i < n; arr_i++){
+       scanf("%d",&arr[arr_i]);
+       h[arr[arr_i]]++;
+    }
+    
+    for(int i=0;i<1000;++i) {
+        if(h[i]){
+            printf("%d\n",n);
+            n -= h[i];
+            
+        }
+    }
+    return 0;
+}
+#endif

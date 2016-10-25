@@ -19,13 +19,15 @@
 10. Use stream classeses, file handling functions
 
 11. Hackerank cut the sticks - https://www.hackerrank.com/challenges/cut-the-sticks 
-You are given sticks, where the length of each stick is a positive integer. A cut operation is performed on the sticks such that all of them are reduced by the length of the smallest stick.
+You are given sticks, where the length of each stick is a positive integer. A cut operation is performed on the sticks such 
+that all of them are reduced by the length of the smallest stick.
 
 Suppose we have six sticks of the following lengths:
 
 5 4 4 2 2 8
 
-Then, in one cut operation we make a cut of length 2 from each of the six sticks. For the next cut operation four sticks are left (of non-zero length), whose lengths are the following:
+Then, in one cut operation we make a cut of length 2 from each of the six sticks. For the next cut operation four sticks are
+left (of non-zero length), whose lengths are the following:
 
 3 2 2 6
 
@@ -156,7 +158,8 @@ Sample Output #02
 
 Explanation #02
 
-Here K=3; the 3 integers so that the difference between the maximum and the minimum is the smallest are (100,101,102), which means unfairness equals
+Here K=3; the 3 integers so that the difference between the maximum and the minimum is the smallest are (100,101,102), which
+means unfairness equals
 
 max(100, 101, 102) - min(100, 101, 102) = 102 - 100 = 2
 

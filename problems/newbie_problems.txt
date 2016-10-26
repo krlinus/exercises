@@ -1,48 +1,48 @@
 For ABSOLUTE newbies
 Questions - make sure you understand these before starting:
-- what is a "computer language"
-- what is computer memory. What is it made of. How do bits turn off and on?
-- What is a variable. What is variable naming. What does a variable name mean to the computer/compiler
-- what is a literal
-- what is an operator
-- what is an expression
-- what is a keyword
-- what is a statement
-- statement terminator (;, end of line, etc)
-- statement demiliter (, etc)
-- what common types of statements exist
-- what are data types and why do we need to classify them
-- How do you specify the value of a variable, for each type of data
-- what is an escape character.
-- how to print the escape character (did this question occur to you? If so you have been paying attention)
+.01 - what is a "computer language"
+.02 - what is computer memory. What is it made of. How do bits turn off and on?
+.03 - What is a variable. What is variable naming. What does a variable name mean to the computer/compiler
+.04 - what is a literal
+.05 - what is an operator
+.06 - what is an expression
+.07 - what is a keyword
+.08 - what is a statement
+.09 - statement terminator (;, end of line, etc)
+.10 - statement demiliter (, etc)
+.11 - what common types of statements exist
+.12 - what are data types and why do we need to classify them
+.13- How do you specify the value of a variable, for each type of data
+.14- what is an escape character.
+.15- how to print the escape character (did this question occur to you? If so you have been paying attention)
 
-- You have a few devices listed below. Make tea.
+.16 - You have a few devices listed below. Make tea.
 Heater, filter, container, glass
-- In the above, do you have everything you need? What is missing?
+.17 - In the above, do you have everything you need? What is missing?
 (try tea powder/leaves/bag, water, milk, sugar)
-- In the above two what components can be thought of as data, what parts belong to the procedure? and what is the relation
+.18 - In the above two what components can be thought of as data, what parts belong to the procedure? and what is the relation
 between the "data", "procedure" and "outcome". Think and discuss. How can you relate this with a computer program
-- what is a "function". Does this word have any relation to mathematics or have any similarity?
-- what is a library (hint: it is not the place you borrow books from)
+.19 - what is a "function". Does this word have any relation to mathematics or have any similarity?
+.20 - what is a library (hint: it is not the place you borrow books from)
 
 For other newbies
-- Write a program that prints ‘Hello World’ to the screen. From the above list, what concept/s was/were put into use 
+Q1. - Write a program that prints ‘Hello World’ to the screen. From the above list, what concept/s was/were put into use 
 (variables, for example)
 
 ===============================================
 
-- Write a program that asks the user for her name and greets her with her name. From the above list, what 
+Q2. - Write a program that asks the user for her name and greets her with her name. From the above list, what 
 concept/s was/were put into use (variables, for example)
 
 ===============================================
 
 
-- Modify the previous program such that only the users Alice and Bob are greeted with their names.
+Q3. - Modify the previous program such that only the users Alice and Bob are greeted with their names.
 
 ===============================================
 
 
-- Sum "A+B"
+Q4. - Sum "A+B"
 input data:
 3 5
 
@@ -52,14 +52,14 @@ answer:
 ===============================================
 
 
-- Rounding
+Q5. - Rounding
 Input a fractional number. If the fractional part if .5 or more round the number to next integer, else round it 
 down to the base integer
 
 ===============================================
 
 
-- Fahrenheit to Celsius
+Q6. - Fahrenheit to Celsius
 You are to write program to convert degrees of Fahrenheit to Celsius.
 Input: A temperature in Fahrenheit
 Output: value, in celcius
@@ -68,7 +68,7 @@ Note: [°C] = ([°F] − 32) × 5⁄9
 ===============================================
 
 
-- vowel count
+Q7. - vowel count
 Lines consist only of lowercase English (Latin) letters and spaces.
 Answer should contain the number of vowels in line
 
@@ -81,17 +81,17 @@ Output
 ===============================================
 
 
-- Write a program that asks the user for a number n and prints the sum of the numbers 1 to n
+Q8. - Write a program that asks the user for a number n and prints the sum of the numbers 1 to n
 
 ===============================================
 
 
-- Modify the previous program such that only multiples of three or five are considered in the sum, e.g. 3, 5, 6, 9, 10, 12, 15
+Q9. - Modify the previous program such that only multiples of three or five are considered in the sum, e.g. 3, 5, 6, 9, 10, 12, 15
 for n=17
 
 ===============================================
 
-- Sum in Loop
+Q10. - Sum in Loop
 input data:
 8
 10 20 30 40 5 6 7 8
@@ -102,12 +102,12 @@ answer:
 
 ===============================================
 
-- Write a program that prints a multiplication table for numbers up to 12.
+Q11. - Write a program that prints a multiplication table for numbers up to 12.
 
 ===============================================
 
 
-- Minimums of Two
+Q12. - Minimums of Two
 Of two numbers, please, select one with minimum value. Here are several pairs of numbers for thorough testing.
 
 Input data will contain number of test-cases in the first line.
@@ -126,7 +126,7 @@ answer:
 ===============================================
 
 
-- Sum of three
+Q13. - Sum of three
  multiply A by B and add C. Then sum the digits
  Input 
  8 3 2
@@ -137,7 +137,7 @@ answer:
 ===============================================
 
 
-- Sums in loop: Input data will contain the total count of pairs to process in the first line.
+Q14. - Sums in loop: Input data will contain the total count of pairs to process in the first line.
 The following lines will contain pairs themselves - one pair at each line.
 Answer should contain the results separated by spaces.
 
@@ -153,7 +153,7 @@ answer:
 ===============================================
 
 
-- Minimum of Three
+Q15. - Minimum of Three
 Input data will contain in the first line the number of triplets to follow.
 Next lines will contain one triplet each.
 Answer should contain selected minimums of triplets, separated by spaces.
@@ -169,7 +169,7 @@ answer:
 ===============================================
 
 
-- Median of three: print the middle number.
+Q16. - Median of three: print the middle number.
 Input
 3 7 5
 
@@ -178,30 +178,30 @@ Output
 
 ===============================================
 
-- Check prime
+Q17. - Check prime
 Input a number. If it is a prime, print YES else print NO
 
 ===============================================
 
 
-- Write a program that prints all prime numbers. (Note: if your programming language does not support arbitrary size numbers,
+Q18. - Write a program that prints all prime numbers. (Note: if your programming language does not support arbitrary size numbers,
 printing all primes up to the largest number you can easily represent is fine too.)
 
 ===============================================
 
 
-- Write a guessing game where the user has to guess a secret number. After every guess the program tells the user whether their
+Q19. - Write a guessing game where the user has to guess a secret number. After every guess the program tells the user whether their
 number was too large or too small. At the end the number of tries needed should be printed. I counts only as one try if they
 input the same number multiple times consecutively.
 
 ===============================================
 
 
-- Write a program that prints the next 20 leap years.
+Q20. - Write a program that prints the next 20 leap years.
 
 ===============================================
 
-- Search 101
+Q21. - Search 101
 For this problem, you must allow the user to enter exactly 5 numbers as initial input.
 The program must then ask for an additional number.
 
@@ -235,7 +235,7 @@ The number 60 does not appear in the first 5 numbers
 ===============================================
 
 
-- Binary to decimal converter
+Q22. - Binary to decimal converter
 A binary number is a sequence of bits (binary digits – 0’s and 1’s) of the form
 BnBn-1……B1 B0, where each Bi is a bit.
 
@@ -258,7 +258,7 @@ In decimal: 31
 ===============================================
 
 
-- Pushups with Blaze
+Q23. - Pushups with Blaze
 At UAB football games, Blaze does push ups after each Blazer score. After the first Blazer touchdown (and point after), Blaze
 does 7 push ups. After the second touchdown and point after, the score is now 14 and Blaze does 14 push ups.
 
@@ -276,7 +276,7 @@ Push ups: 7
 ===============================================
 
 
-- Valid identifier checker
+Q24. - Valid identifier checker
 An identifier in Java, C++ and most other programming languages must begin with a letter and then may be followed by any number
 of letters or digits.
 
@@ -295,7 +295,7 @@ Answer: a_b_c__2 is not a valid identifier
 
 ===============================================
 
-- password checker
+Q25. - password checker
 Write a program that will validate a password.
 
 Password must have,
@@ -308,7 +308,7 @@ Password must have,
 
 ===============================================
 
-- Do You Have Enough Money?
+Q26. - Do You Have Enough Money?
 
 General Statement:
 Read the amount of money you have and the prices of the items you intend to buy. Determine whether you have enough money to buy
@@ -345,7 +345,7 @@ $1.94 SHORT
 ===============================================
 
 
-- Parallelogram Words
+Q27. - Parallelogram Words
 
 General Statement:
 Output a given word horizontally and multiple times vertically so that each letter in the horizontal word matches the position
@@ -403,7 +403,7 @@ T
 ===============================================
 
 
-- Where Does It Fit?
+Q28. - Where Does It Fit?
 
 General Statement: For an input word, determine whether it is alphabetically located before the word EXERCISE, after the word
 MUSCLES, or between EXERCISE and MUSCLES.

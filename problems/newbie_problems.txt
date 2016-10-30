@@ -175,6 +175,14 @@ Input
 
 Output
 5
+explanation: Sort the numbers, then take the middle number
+
+Input
+3 7 5 4
+
+Output
+5
+explanation. here 4 and 5 are in the middle. Take the average of the two, then round up.
 
 ===============================================
 

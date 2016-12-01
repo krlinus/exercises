@@ -1,0 +1,7 @@
+1. Implement heapsort on an array
+- see hs.cpp
+
+2. Implement quicksort on an array
+
+3. Implement mergesort on an array
+

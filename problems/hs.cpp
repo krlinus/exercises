@@ -8,12 +8,16 @@ int heap_insert(vector<int> &heap, int new_el) {
   heap.push_back(new_el);
   int nswaps = 0;
   int hlen = heap.size();
-  int el_pos = hlen - 1;
+  int el_pos = hlen;
   int i = el_pos / 2;
-  while(heap[el_pos] > heap[i]) {
-    int t = heap[i];
-    heap[i] = heap[el_pos];
-    heap[el_pos] = t;
+  if (i <= 0) {
+    return 0; // nothing to be done, as this is the first element
+  }
+  while(heap[el_pos-1] > heap[i-1]) {
+    cout << "swapping " << i << " and " << el_pos << endl;
+    int t = heap[i-1];
+    heap[i-1] = heap[el_pos-1];
+    heap[el_pos-1] = t;
     el_pos = i;
     nswaps++;
     i /= 2;

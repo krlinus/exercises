@@ -2,6 +2,7 @@
 - see hs.cpp
 
 2. Implement quicksort on an array
+- see qs.cpp
 
 3. Implement mergesort on an array
 

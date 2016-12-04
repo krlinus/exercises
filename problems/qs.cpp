@@ -22,6 +22,7 @@ int part(vector<int> &arr, int start, int end) {
     } 
   }
   swap(arr, start, p_ind - 1);
+  dump_vect(arr);
   return p_ind;
 }
 
@@ -29,22 +30,8 @@ int quicks(vector<int> &arr, int start, int end) {
   if (start >= end-1) {
     return 0;
   }
-#if 0
-  int mid = (end - start) / 2;
-  cout << "arr[" << mid << "] = " << arr[mid] << endl;
-  swap(arr,start,mid);
-  int pvt=start+1;
-  for(int i = pvt;i < end;++i) {
-    if(arr[i] < arr[start]) {
-      swap(arr,i,pvt);
-      pvt++;
-    }
-  }
-  swap(arr,start,pvt-1);
-  dump_vect(arr);
-#endif
   int p_ind=part(arr,start,end);
-  if (p_ind < 0 || end - start <= 3) return 0;
+  if (p_ind < 0 || end - start < 3) return 0;
   cout << "q("<<start<<","<<p_ind<<")"<<endl;
   quicks(arr,start,p_ind);
   cout << "q("<<p_ind<<","<<end<<")"<<endl;

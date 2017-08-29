@@ -1,0 +1,4 @@
+See https://docs.google.com/spreadsheets/d/16dGumHPfGJswETAbdrum3_UN2_6-0bbaxe6mLHHJFXc/edit?usp=sharing for quickly brushing up on some of this. Caveat: This sheet is still not complete
+Check out: http://en.cppreference.com/w/cpp/container
+
+

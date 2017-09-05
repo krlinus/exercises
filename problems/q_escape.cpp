@@ -1,13 +1,17 @@
+#include <iostream>
+#include <vector>
+#include <string>
+using namespace std;
 /*
 Problem statement: change the delimiter in a csv input from
 ',' to '|'. Allow for fields in quotes. Allow for escaping quotes
 by using two quotes. (Use double-quote char, not single)
 */
-vector < string > parse(vector < string > records) {
-    enum Location {OUT_OF_QUOTE, IN_QUOTE} loc;
+vector <string> parse(const vector <string> &records) {
+    enum Place {OUT, IN} place;
     vector<string> retval;
-    loc=OUT_OF_QUOTE;
-    char last_char=0;
+    place=OUT;
+    char last=0;
     const int N=records.size();
     for(int r = 0;r < N;++r) {
         string rec = records[r];
@@ -18,27 +22,44 @@ vector < string > parse(vector < string > records) {
             if(c != ',' && c != '"') {
                 out_str += c;
             } else if (c == ',') {
-                if(loc == OUT_OF_QUOTE){
+                if(place == OUT){
                     out_str += '|';
                 } else {
                     out_str += c;
                 }
                 
             } else if (c == '"') {
-                
-                if(loc == OUT_OF_QUOTE) {
-                    loc = IN_QUOTE;
-                    if(last_char == '"'){
+                if(place == OUT) {
+                    place = IN;
+                    if(last == '"'){
                         out_str += '"';
                     }
                 } else {
-                    loc = OUT_OF_QUOTE;
+                    place = OUT;
                 }
             }
-            last_char=rec[i];
+            last=rec[i];
         }
         retval.push_back(out_str);
     }
     return retval;
-
 }
+
+int main() {
+  string s1="abc,\"def, ghi\",\"jkl \"\"Jackal\"\"";
+  string s2="\"\"\"hero\"\", michael\",37,\",456\",long,live";
+  cout <<"s1 = " << s1 << endl;
+  cout <<"s2 = " << s2 << endl;
+  vector<string> vs;
+  vs.push_back(s1);
+  vs.push_back(s2);
+
+  vector<string> ret=parse(vs);
+  for(int i=0;i<ret.size();++i) {
+    cout << ret[i] << endl;
+  }
+  //assert(ret[0] == "abc|def, ghi|jkl \"Jackal\"");
+  //assert(ret[1] == "hero michael,37,|456,long,live
+  return 0;
+}
+

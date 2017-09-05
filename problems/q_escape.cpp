@@ -27,15 +27,20 @@ vector <string> parse(const vector <string> &records) {
                 } else {
                     out_str += c;
                 }
-                
             } else if (c == '"') {
                 if(place == OUT) {
                     place = IN;
                     if(last == '"'){
                         out_str += '"';
+                        rec[i]=0;
                     }
                 } else {
-                    place = OUT;
+                    if(last == '"'){
+                        out_str += '"';
+                        rec[i]=0;
+                    } else {
+                      place = OUT;
+                    }
                 }
             }
             last=rec[i];

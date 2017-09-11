@@ -1,0 +1,8 @@
+input:
+n k
+queen_x queen_y
+obstacle_x obstacle_y (k times)
+
+n is the size of the board (the board is square)
+
+output: how many squares are under the queen's attack?

@@ -180,3 +180,11 @@ Example 2:
 Input: "cbbd"
 
 Output: "bb"
+
+16. Max Sum without Adjacents
+Input: N = size of array
+3 2 5 10 7 = array
+Output: 15
+
+Explanation: consider the sum of 3, 5, 7
+See: msa.cpp

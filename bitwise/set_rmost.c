@@ -20,7 +20,7 @@ int main() {
     int n;
     scanf("%d", &n);
     printb(n);
-    n = n | (n ^ (n+1));
+    n = n |  (n+1);
     printb(n);
     printf("%d\n", n);
     return 0;

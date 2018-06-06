@@ -20,11 +20,9 @@ int main() {
     int n;
     scanf("%d", &n);
     printb(n);
-    printb(n+1);
-    printb(n^(n+1));
     n = n | (n ^ (n+1));
-    printf("%d\n", n);
     printb(n);
+    printf("%d\n", n);
     return 0;
 }
 

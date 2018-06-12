@@ -188,3 +188,8 @@ Output: 15
 
 Explanation: consider the sum of 3, 5, 7
 See: msa.cpp
+
+17. surpasser count
+for each element of the array find its surpasser count i.e. count the number of elements to the right that are greater than that element.
+
+See: spc.c

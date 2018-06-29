@@ -193,3 +193,8 @@ See: msa.cpp
 for each element of the array find its surpasser count i.e. count the number of elements to the right that are greater than that element.
 
 See: spc.c
+
+18. find the number of discrete patterns of 1's in a grid. Assume each cell can be either 0 or 1
+Contiguous cells are up-down and left-right.
+
+See: gpat.c

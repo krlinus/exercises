@@ -1,30 +1,30 @@
 recommended reference - "Whirlwind tour of python" https://drive.google.com/drive/u/0/folders/0B2Mst-wUtoMBUWhBZUJIR0xPQTg
 
 Q 1 How does import this work? How does it print stuff when you try to import it?
-Ans. Look in mymodule1
+Ans. Look in mymodule1 at https://github.com/krlinus/exercises/blob/master/python/mymodule1/__init__.py
 
 Q1.2. Can we indent with spaces and tabs both? One line with tab and the next with spaces?
-See indentation.py
+See indentation.py at https://github.com/krlinus/exercises/blob/master/python/indentation.py
 
 Q1.3. How to define a member function? How do we control visibility - private, protected etc
-See class1.py  
+See class1.py at https://github.com/krlinus/exercises/blob/master/python/class1.py
 
 Q1.4. How do you modify a list in place without calling append() or extend()
-See list1.py
+See list1.py at https://github.com/krlinus/exercises/blob/master/python/list1.py
 
 Q1.5. How do you overcome the wrong result when you do 0.1 + 0.2 == 0.3 ?
-See imag1.py
+See imag1.py at https://github.com/krlinus/exercises/blob/master/python/imag1.py
 
 Q1.6. Given a list e.g.,
  l = [34,21,56,98,63]
 print the 2nd last, 4th last, 6th last etc till the beginning
-See list2.py
+See list2.py at https://github.com/krlinus/exercises/blob/master/python/list2.py
 
 Q1.7. Using lists and set operations split a range of numbers into
  - divisible by 3
  - divisible by 5
  - divisible by 3 & 5
  - divisible by neither 3 nor 5
-See list3.py
+See list3.py at https://github.com/krlinus/exercises/blob/master/python/list3.py
 
 

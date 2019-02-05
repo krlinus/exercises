@@ -7,6 +7,10 @@ int main()
     int next3=3, next5=5;
     for(i; i <= 100; i++)
     {
+        if(i != next3 && i != next5)
+        {
+            cout << i;
+        }
         if(i == next3)
         {
             cout << "P";
@@ -17,11 +21,7 @@ int main()
             cout << "R";
             next5 += 5;
         }
-        if(i != next3 && i != next5)
-        {
-            cout << i;
-        }
-        cout << endl;
+        cout << "\n";
     }
     return 0;
 }

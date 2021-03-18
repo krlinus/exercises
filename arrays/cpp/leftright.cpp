@@ -23,30 +23,24 @@ int findElement(int arr[], int n) {
         return -1;
     }
     vector<int> leastOnRight(n);
-    vector<int> greatestOnLeft(n);
-    
-    int greatest=INT_MIN;
-    for(int i=1;i<n;++i) {
-        if(arr[i] >= greatest) {
-             greatest = greatestOnLeft[i] = arr[i];
-        } else {
-            greatestOnLeft[i] = greatestOnLeft[i-1];
-        }
-    }
-    
+
     int least=INT_MAX;
-    for(int i=n-2;i>=0;i--) {
+    for(int i=n-1;i>=0;i--) {
         if(arr[i] <= least) {
-            least = leastOnRight[i] = arr[i];
-        } else {
-            leastOnRight[i] = leastOnRight[i+1];
+            least = arr[i];
         }
+        leastOnRight[i] = least;
     }
-    
+
+    int greatest=arr[0];
     for(int i=1;i<n-1;++i) {
-        if(arr[i] >= greatestOnLeft[i] && arr[i] <= leastOnRight[i]) {
-            return arr[i];
+        if(arr[i] >= greatest) {
+            greatest = arr[i];
+            if(arr[i] <= leastOnRight[i]) {
+                return arr[i];
+            }
         }
     }
+
     return -1;
 }

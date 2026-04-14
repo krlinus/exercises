@@ -3,10 +3,13 @@ def next_permu(seq : list) -> list:
     res=seq.copy()
     # find the pivot - seq[i-1] < seq[i]
     p=len(res)
-    for i in range(len(res)-1,1,-1):
+    for i in range(len(res)-1,0,-1):
         if res[i-1] < res[i]:
             p=i-1
             break
+    if p == len(res):
+        # no pivot, reverse and return
+        return res[::-1]
     # swap pivot with least significant number 
     # greater than it
     for i in range(len(res)-1,p,-1):
@@ -18,10 +21,15 @@ def next_permu(seq : list) -> list:
     return res
 
 if __name__=='__main__':
-    tests=[([5,1,2,4,3],[5,1,3,2,4])]
+    tests=[([5,1,2,4,3],[5,1,3,2,4]),
+           ([3,2,1],[1,2,3]),
+           ([1,5,1],[5,1,1])]
     for q, r in tests:
         assert(next_permu(q) == r)
+        '''
         t=q.copy()
         for i in range(5):
             t=next_permu(t)
             print(t)
+        '''
+        
